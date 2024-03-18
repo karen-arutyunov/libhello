@@ -1,0 +1,16 @@
+: 1
+name: libhello-tests
+version: 0.1.0-a.0.z
+type: exe
+language: c++
+project: libhello
+summary: libhello-tests C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/libhello
+email: karen@codesynthesis.com
+#build-error-email: karen@codesynthesis.com
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0
+default-build-auxiliary-pgsql: linux_debian_12-postgresql*
+
