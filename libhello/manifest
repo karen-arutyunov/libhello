@@ -7,7 +7,7 @@ license: other: proprietary ; Not free/open source.
 description-file: README.md
 url: https://example.org/libhello
 email: karen@codesynthesis.com
-#build-error-email: karen@codesynthesis.com
+build-warning-email: karen@codesynthesis.com
 depends: * build2 >= 0.16.0
 depends: * bpkg >= 0.16.0
 tests: libhello-tests
